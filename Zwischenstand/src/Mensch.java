@@ -7,7 +7,6 @@ public class Mensch {
         setNachname(nachname);
         setVorname(vorname);
         setAlter(alter);
-
     }
 
 
