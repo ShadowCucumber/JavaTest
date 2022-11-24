@@ -1,8 +1,8 @@
 public class Mitarbeiter extends Mensch{
     int mitarbeiternummer;
 
-    public Mitarbeiter(int mitarbeiternummer, String vorname, String nachname, int alter){
-        super(vorname, nachname, alter);
+    public Mitarbeiter(int mitarbeiternummer, String vorname, String nachname, int alter, boolean rollstuhl){
+        super(vorname, nachname, alter, rollstuhl);
         setMitarbeiternummer(mitarbeiternummer);
 
     }
