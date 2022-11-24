@@ -1,7 +1,7 @@
 public class Mitarbeiter extends Mensch{
     int mitarbeiternummer;
 
-    public Mitarbeiter(int mitarbeiternummer, String vorname, int alter, String nachname){
+    public Mitarbeiter(int mitarbeiternummer, String vorname, String nachname, int alter){
         super(vorname, nachname, alter);
         setMitarbeiternummer(mitarbeiternummer);
 
@@ -12,6 +12,10 @@ public class Mitarbeiter extends Mensch{
     public int getMitarbeiternummer() {
         return mitarbeiternummer;
     }   
+
+    public void showInfo(){
+        System.out.println(getMitarbeiternummer());
+    }
 
 
     

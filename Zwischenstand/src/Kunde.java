@@ -13,6 +13,10 @@ public class Kunde extends Mensch {
     public int getKundennummer() {
         return Kundennummer;
     }
+
+    public void showInfo(){
+        System.out.println(getKundennummer());
+    }
     
     
 }

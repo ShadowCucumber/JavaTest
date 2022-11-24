@@ -1,13 +1,16 @@
-public class Mensch {
+public abstract class Mensch {
     String vorname;
     String nachname;
     int alter;
+    
 
     public Mensch(String vorname, String nachname, int alter){
         setNachname(nachname);
         setVorname(vorname);
         setAlter(alter);
     }
+
+    public abstract void showInfo();
 
 
     public void setNachname(String nachname) {
