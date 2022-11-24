@@ -18,9 +18,15 @@ public class App {
         if (m1.getRollstuhl()) {
             System.out.println("Der bre braucht Fahrstuhl");
         } else {
-            System.out.println("Der bre kann treppen laufen");
+            System.out.println("Der bre kann treppen Laufen");
             
         }
+        if (m2.getRollstuhl()) {
+            System.out.println("Der bre braucht Fahrstuhl");
+        } else {
+            System.out.println("Der bre kann treppen Laufen");
+        }
+        
         
     }
 }
