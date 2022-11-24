@@ -1,8 +1,8 @@
 public class Einbrecher extends Mensch {
  Integer anzahleinbruch;
 
-    public Einbrecher(Integer anzahleinbruch, String vorname, String nachname, int alter){
-    super(vorname, nachname, alter);
+    public Einbrecher(Integer anzahleinbruch, String vorname, String nachname, int alter, boolean rollstuhl){
+    super(vorname, nachname, alter, rollstuhl);
     setAnzahleinbruch(anzahleinbruch);
 }
 
@@ -11,6 +11,9 @@ public class Einbrecher extends Mensch {
     }
     public Integer getAnzahleinbruch() {
         return anzahleinbruch;
+    }
+    public void showInfo(){
+        System.out.println(getAnzahleinbruch());
     }
 
     
