@@ -17,6 +17,8 @@ public class App {
         menschen.add(m4);
 
         
+
+        
         for (Mensch mensch : menschen) {
            mensch.showInfo();
         }
@@ -38,6 +40,7 @@ public class App {
         } else {
             System.out.println("Der bre kann einbrechen");
         }
+
 
 
 
