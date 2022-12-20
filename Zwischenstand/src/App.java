@@ -10,7 +10,7 @@ public class App {
         menschen.add(m1);
         menschen.add(m2);
 
-
+        
         for (Mensch mensch : menschen) {
            mensch.showInfo();
         }
@@ -26,7 +26,7 @@ public class App {
         } else {
             System.out.println("Der bre kann treppen Laufen");
         }
-        
+
         
     }
 }
